@@ -1,0 +1,128 @@
+.jcarousel-wrapper {
+    position: relative;
+    width: 600px;
+    padding-top: 3px;
+    margin-left: 39px;
+}
+
+.about_product {
+    width: 300px;
+    float: left;
+}
+
+.about_product>h2 {
+    font-weight: bold;
+    color: #010101;
+    font: 400 24px / 30.004px Arial;
+    color: #010101;
+}
+
+.about_product table {
+    width: 100%;
+    border-spacing: 0;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 20px;
+}
+
+.about_product table td {
+    padding-left: 7px;
+    color: #4f4f4f;
+    font: 400 13px / 20.003px Arial;
+}
+
+.about_product table tr:nth-child(2n+1) {
+    background: #f3f2f0;
+}
+
+.about_product a {
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 20px 7px 9px;
+    background: #4f4f4f;
+    color: #ffffff;
+    font: 400 13px / 20.003px Arial;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.about_product a:after {
+    content: '';
+    position: absolute;
+    right: 2px;
+    top: 8px;
+    border: 6px solid transparent;
+    border-left: 5px solid #fff;
+}
+
+.about_product span {
+    margin-right: 10px;
+    
+}
+
+.about_product span h2 {
+    margin: 0;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+    width: 600px;
+}
+
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 22px;
+    height: 43px;
+    text-align: center;
+    color: #0e0e0e;
+    text-decoration: none;
+    font: 70px/27px Arial, sans-serif;
+}
+
+.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}

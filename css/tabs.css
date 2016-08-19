@@ -1,0 +1,33 @@
+.tabs {
+    display: inline-block;
+}
+
+.tabs > div {
+    padding-top: 10px;
+}
+
+.tabs >ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabs> ul> li {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 0px 5px 0px;
+    color: #da501a;
+    font: 400 16px / 20.003px Arial;
+    border-bottom: 1px solid #4f4f4f;
+    border-bottom-style: dashed;
+}
+
+.tabs> ul> li.active {
+    background: #f3f2f0;
+    color: #4f4f4f;
+    font: 400 16px / 20.003px Arial;
+    border: none;
+    padding: 5px;
+}
